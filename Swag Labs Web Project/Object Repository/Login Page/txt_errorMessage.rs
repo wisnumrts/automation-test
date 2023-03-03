@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>txt_errorMessage</name>
+   <tag></tag>
+   <elementGuidId>912d5320-05c9-4cba-9d68-21e3521c8ecb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;login_button_container&quot;]/div/form/div[3]/h3</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;login_button_container&quot;]/div/form/div[3]/h3</value>
+      <webElementGuid>01b59f9a-e0d4-4bca-afe9-d9b198b2ddb0</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Read Order Info</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>30a179ec-052c-4d83-b92d-108cb0f578a1</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b61f8cbb-7e02-4af0-bf30-6cdb71af8249</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b61f8cbb-7e02-4af0-bf30-6cdb71af8249</id>
+      <masked>false</masked>
+      <name>expected</name>
+   </variable>
+</TestCaseEntity>

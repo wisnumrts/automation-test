@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Read Payment Information</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3a61601a-b8bc-4235-8a73-c3cf1cf36dbe</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>bd761286-deef-4c92-ad0b-97f817de2e67</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>bd761286-deef-4c92-ad0b-97f817de2e67</id>
+      <masked>false</masked>
+      <name>expected</name>
+   </variable>
+</TestCaseEntity>

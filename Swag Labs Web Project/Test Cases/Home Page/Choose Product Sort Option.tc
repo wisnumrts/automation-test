@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Choose Product Sort Option</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>26557ba8-88cb-4efa-948b-9e2623fc8ce2</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f4f08ba5-de76-40d3-a0ac-678246c6162e</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f4f08ba5-de76-40d3-a0ac-678246c6162e</id>
+      <masked>false</masked>
+      <name>labelText</name>
+   </variable>
+</TestCaseEntity>

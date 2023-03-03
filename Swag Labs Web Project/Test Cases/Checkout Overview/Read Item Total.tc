@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Read Item Total</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1e068997-237c-4697-84bf-570f400171e3</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>06d6719d-5abb-4a3f-b1a0-d0424028798b</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>06d6719d-5abb-4a3f-b1a0-d0424028798b</id>
+      <masked>false</masked>
+      <name>expected</name>
+   </variable>
+</TestCaseEntity>
