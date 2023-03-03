@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Count Shopping Cart Badge</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>560b2d27-3ce2-4fba-b440-733fe7b50b90</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>87100997-e7da-4f1b-a799-f82bbf74317a</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>87100997-e7da-4f1b-a799-f82bbf74317a</id>
+      <masked>false</masked>
+      <name>expected</name>
+   </variable>
+</TestCaseEntity>

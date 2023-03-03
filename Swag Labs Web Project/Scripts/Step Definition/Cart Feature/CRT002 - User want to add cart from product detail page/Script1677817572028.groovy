@@ -20,7 +20,9 @@ import org.openqa.selenium.Keys as Keys
 WebUI.callTestCase(findTestCase('Step Definition/Login Feature/LGI005 - User want to login using correct credential'), [:], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Home Page/Choose Product Sort Option'), [('labelText') : 'za'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Home Page/Click Product Image'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Home Page/Scroll Down'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Product Detail/Click Add to Cart Button'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Home Page/Count Shopping Cart Badge'), [('expected') : '1'], FailureHandling.STOP_ON_FAILURE)
 

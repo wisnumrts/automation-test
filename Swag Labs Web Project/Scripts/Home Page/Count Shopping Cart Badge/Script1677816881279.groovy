@@ -16,11 +16,13 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
-WebUI.callTestCase(findTestCase('Step Definition/Login Feature/LGI005 - User want to login using correct credential'), [:], 
-    FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('Home Page/label_shoppingCartBadge'))
 
-WebUI.callTestCase(findTestCase('Home Page/Choose Product Sort Option'), [('labelText') : 'za'], FailureHandling.STOP_ON_FAILURE)
+cartBadge = WebUI.getText(findTestObject('Home Page/label_shoppingCartBadge'))
 
-WebUI.callTestCase(findTestCase('Home Page/Scroll Down'), [:], FailureHandling.STOP_ON_FAILURE)
+KeywordUtil.logInfo('Cart Badge: ' + cartBadge)
+
+WebUI.verifyMatch(cartBadge, expected, false)
 
