@@ -24,3 +24,6 @@ WebUI.callTestCase(findTestCase('Home Page/Click Product Image'), [:], FailureHa
 
 WebUI.callTestCase(findTestCase('Product Detail/Verify Element'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.callTestCase(findTestCase('Take a Screenshoot as Checkpoints/Take a Screenshoot as Checkpoints'), [('imageName') : 'Product Detail Page'], 
+    FailureHandling.STOP_ON_FAILURE)
+
