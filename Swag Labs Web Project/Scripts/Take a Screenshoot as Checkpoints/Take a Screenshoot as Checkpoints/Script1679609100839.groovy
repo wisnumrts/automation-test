@@ -17,21 +17,5 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Step Definition/Login Feature/LGI005 - User want to login using correct credential'), [:], 
-    FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Home Page/Click Menu'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Take a Screenshoot as Checkpoints/Take a Screenshoot as Checkpoints'), [('imageName') : 'Step 1'], 
-    FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Home Page/Click Logout Menu'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Take a Screenshoot as Checkpoints/Take a Screenshoot as Checkpoints'), [('imageName') : 'Step 2'], 
-    FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Login Page/Verify Element'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Take a Screenshoot as Checkpoints/Take a Screenshoot as Checkpoints'), [('imageName') : 'Step 3'], 
-    FailureHandling.STOP_ON_FAILURE)
+WebUI.takeFullPageScreenshotAsCheckpoint(imageName)
 
